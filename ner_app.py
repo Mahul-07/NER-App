@@ -8,6 +8,8 @@ from streamlit_option_menu import option_menu
 med7 = spacy.load("en_core_med7_lg")
 nlp = spacy.load('en_core_web_sm')
 
+st.title("Named Entity Recognition(NER)")
+
 
 selected = option_menu(
     menu_title=None,
